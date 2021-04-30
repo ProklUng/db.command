@@ -49,7 +49,7 @@ class DbImport extends Command
                 null,
                 InputOption::VALUE_OPTIONAL,
                 'Backup original database?',
-                false
+                'false'
             );
     }
 
