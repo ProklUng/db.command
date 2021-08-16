@@ -24,10 +24,13 @@
       "Prokl\\DbCommands\\": "src"
     }
   },
+  "bin": [
+    "bin/db"
+  ],
   "require": {
-    "php": ">=7.3",
+    "php": ">=7.3 || ^8.0",
     "ifsnop/mysqldump-php": "^2.9",
-    "symfony/console": "~4 | ~5",
-    "symfony/dotenv":  "~4 | ~5"
+    "symfony/console": "^4.4 | ^5.0",
+    "symfony/dotenv":  "^4.4 | ^5.0"
   }
 }
