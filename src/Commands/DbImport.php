@@ -80,7 +80,7 @@ class DbImport extends Command
 
         $dbHost = $_ENV['DB_HOST'];
         $dbName = $_ENV['DB_NAME'];
-        $dbLogin = $_ENV['DB_USER'];
+        $dbLogin = $_ENV['DB_USER'] ?: (string)$_ENV['DB_LOGIN'];
         $dbPassword = $_ENV['DB_PASSWORD'];
 
         if (!$dbHost || !$dbName || !$dbLogin) {

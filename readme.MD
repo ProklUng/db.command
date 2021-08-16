@@ -13,7 +13,7 @@
 
 `DB_HOST='127.0.0.1'`
 `DB_NAME='database'`
-`DB_USER=root`
+`DB_USER=root # Или DB_LOGIN`
 `DB_PASSWORD=''`
 
 #### Команды
